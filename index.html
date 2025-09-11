@@ -1,10 +1,116 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My Personal Website</title>
-  </head>
-  <body>
-    <h1>Hello!</h1>
-    <p>Welcome to my personal site.</p>
-  </body>
+<html lang="en-US">
+<head>
+<title>Meenakshi's site?</title>
+<link rel="canonical" href="https://MeenakshiMcNamara.github.io/" />
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    
+    <header>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="mentoring.html">Mentoring</a></li>
+            <li><a href="writing.html">Other Writing</a></li>
+          </ul>
+        </nav>
+      </header>
+
+<style>
+    header {
+    background-color: #79006b; /* Darker teal for header */
+    color: white;
+    padding: 10px 0;
+}
+    ol li {
+        padding: 5px 0px;
+        }
+    
+    ul li {
+            padding: 4px 0px;
+        }
+    
+        nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right; /* Aligns navigation to the right */
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 15px; /* Space between the tabs */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #985090; /* Darker teal on hover */
+    border-radius: 4px;
+}
+    
+    .supsub {
+            display: inline-block;
+        }
+    
+    .supsub sup,
+    .supsub sub {
+            position: relative;
+            display: block;
+            line-height: .6;
+        }
+    
+    .supsub sub {
+            top: .3em;
+        }
+    .hidden { display: none; }
+    .abstract { width: 100%; font-size: smaller; font-style: normal; margin: 0px; padding: 0px; 
+        padding-top:5px;
+         cursor: pointer; }
+         
+         
+    </style>
+     <script>
+        function tog(id) { e = document.getElementById(id); e.classList.toggle('hidden'); }
+        function togs(c) { var es = document.getElementsByClassName(c), len = es ? es.length : 0, i = 0; for ( i ; i < len ; i++ ) { es[i].classList.toggle('hidden'); } }
+    </script>
+<main>
+
+<font size="+1">
+<H1><font size="+4"> Kenta's Antics </font></a></H1>
+<br>
+            <div class="effect">
+            <img class="image" style="border:5px solid white" src="picture-of-me.png" height="280" align="right">
+            <img class="hover" style="border:5px solid white" src="kentagon.jpg" height="280" align="right">
+            </div>
+
+
+Hey y'all! I'm Meenakshi (they/she, they preferred), a first-year math grad student at Princeton<a href="https://www.math.princeton.edu/people/meenakshi-mcnamara">Princeton</a>. 
+
+<!-- 
+I am particularly interested in representations of \(p\)-adic groups and geometric representation theory.
+In my free time, I enjoy running and drinking tea. <br>
+</br> -->
+
+
+	Email: meenakshi [at] princeton [dot] edu</br>
+<br>
+I'm also currently co-organizing the <a href="seminar.html">first-year seminar</a>. Go to the linked site to see more details!<br>
+<br>
+
+    You can learn more about me in the other tabs.
+    <br>
+
+</font>
+
+</main>
+</body>
 </html>
