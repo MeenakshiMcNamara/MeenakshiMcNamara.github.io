@@ -7,9 +7,21 @@
 <link rel="canonical" href="https://kentajsuzuki.github.io/seminar.html" />
 <link rel="stylesheet" type="text/css" href="style.css"/>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <meta charset="UTF-8">
+  <title>LaTeX with MathJax</title>
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      },
+      svg: { fontCache: 'global' }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 
-    
+
 
     <header>
         <nav>
@@ -155,6 +167,27 @@ nav ul li a:hover {
     </p>
     </div> 
 
+
+<div onclick="tog('7');">
+    <p class="date">November 11 TBD: TBA</p>
+    <p id="6" class="hidden abstract">
+    TBA
+    </p>
+    </div> 
+
+<div onclick="tog('7');">
+    <p class="date">November 18 TBD: TBA</p>
+    <p id="6" class="hidden abstract">
+    TBA
+    </p>
+    </div>             
+
+<div onclick="tog('7');">
+    <p class="date">November 25 Zahir Ahmed (tentative): TBD</p>
+    <p id="6" class="hidden abstract">
+    TBA
+    </p>
+    </div> 
 <!-- </font> -->
 <!-- 
 <h3><font size="+3">References</font></h3>
