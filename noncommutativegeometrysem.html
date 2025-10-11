@@ -1,0 +1,211 @@
+
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Meenakshi's activities?</title>
+<link rel="canonical" href="https://kentajsuzuki.github.io/seminar.html" />
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <meta charset="UTF-8">
+  <title>LaTeX with MathJax</title>
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      },
+      svg: { fontCache: 'global' }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+
+
+<nav id="nav-placeholder"></nav>
+
+<script>
+fetch('header.html')
+  .then(response => response.text())
+  .then(data => {
+    document.getElementById('nav-placeholder').innerHTML = data;
+  });
+</script>
+
+
+<style>
+    header {
+    background-color: #79006b; /* Darker teal for header */
+    color: white;
+    padding: 10px 0;
+}
+    ol li {
+        padding: 5px 0px;
+        }
+    
+    ul li {
+            padding: 4px 0px;
+        }
+    
+        nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right; /* Aligns navigation to the right */
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 15px; /* Space between the tabs */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #985090; /* Darker teal on hover */
+    border-radius: 4px;
+}
+    
+    .supsub {
+            display: inline-block;
+        }
+    
+    .supsub sup,
+    .supsub sub {
+            position: relative;
+            display: block;
+            line-height: .6;
+        }
+    
+    .supsub sub {
+            top: .3em;
+        }
+    .hidden { display: none; }
+    .abstract { width: 100%; font-size: smaller; font-style: normal; margin: 0px; padding: 0px; 
+        padding-top:5px;
+         cursor: pointer; }
+    </style>
+     <script>
+        function tog(id) { e = document.getElementById(id); e.classList.toggle('hidden'); }
+        function togs(c) { var es = document.getElementsByClassName(c), len = es ? es.length : 0, i = 0; for ( i ; i < len ; i++ ) { es[i].classList.toggle('hidden'); } }
+    </script>
+<main>
+<font size="+1">
+<H1><font size="+4"> First-year seminar </font></a></H1>
+
+  A relatively informal seminar for G1s to get a chance to share knowledge and ideas, get practice presenting, and prep a bit for the general exam :) <br>
+
+    <br>
+<strong>When?</strong> Tuesdays 12:00-1:15 <br>
+<strong>Where?</strong> Fine B04 <br>
+
+<h3>
+  <font size="+3">Schedule</font>
+  <i style="font-size: smaller;">(click on the titles for descriptions)</i>
+</h3>
+<br>
+
+
+<div onclick="tog('1');">
+        <p class="date">September 16 John Dukes: Twists and Turns: A (very) Gentle Introduction to the Mapping Class Group</p>
+        <p id="1" class="hidden abstract">
+        What happens if you take a surface, like a donut or a rubber band, and look at all the ways you can stretch and twist it without tearing? The collection of these “symmetries up to wiggling” is called the mapping class group. In this talk, we’ll explore what that means in a picture-driven way. We’ll start with the annulus, where the only motion is twisting, and then move to the torus, where the symmetries secretly form a very classic group. No technical background will be needed — just an openness to seeing how curves, twists, and simple pictures can reveal deep mathematical structure.
+
+        </p>
+        </div> 
+<div onclick="tog('2');">
+        <p class="date"> <b> Friday </b> September 26 <b> 1pm in B01/401 </b> Tuong Le: An introduction to matroid theory </p> 
+        <p id="2" class="hidden abstract">
+        Matroids are structures that abstract the notion of independence from linear algebra and graph theory. In a vector space, all bases have the same size; in a connected graph, all spanning trees have the same size—these are both special cases of the fact that all bases of a matroid have the same size. This talk will go over the various definitions of matroids, which are miraculously all cryptomorphic, and discuss the realization problem of matroids.
+
+        </p>
+        </div> 
+<div onclick="tog('3');">
+        <p class="date"> <b>Friday</b> October 3 <b>1:00pm </b>Franciszek Knyszewski: Ultraproducts </p>
+        <p id="3" class="hidden abstract">
+        I will explain how to put together fields of positive characteristic to obtain the field of complex numbers, and show how this newfound presentation of $\mathbf{C}$ can be used to give a straightforward proof of a curious theorem in complex algebraic geometry.
+        </p>
+        </div> 
+<div onclick="tog('4');">
+        <p class="date">October 7 Quanlin Chen: Arithmetic subgroups and rigidity </p>
+        <p id="4" class="hidden abstract">
+        I’ll explain how to hunt lattices inside Lie groups that are of arithmetic nature and explain Margulis’ extraordinary results on how essentially every lattices are arithmetic and maps between them are “rigid.” Time permits I’ll prove a funny little fact that an arithmetic subgroup of a semisimple Lie group comes from “a unique Q-structure.”
+        </p>
+        </div> 
+<div onclick="tog('5');">
+        <p class="date">October 14: Fall break</p> 
+    
+<!--         <p id="5" class="hidden abstract">
+        TBA
+        </p>
+ -->
+</div> 
+<div onclick="tog('6');">
+        <p class="date">October 21 Kenta Suzuki: TBD</p>
+        <p id="6" class="hidden abstract">
+        TBA
+        </p>
+        </div> 
+    
+<div onclick="tog('7');">
+        <p class="date">October 28 Jessica Zhang: TBA</p>
+        <p id="6" class="hidden abstract">
+        TBA
+        </p>
+        </div> 
+
+<div onclick="tog('7');">
+    <p class="date">November 4 TBD: TBA</p>
+    <p id="6" class="hidden abstract">
+    TBA
+    </p>
+    </div> 
+
+
+<div onclick="tog('7');">
+    <p class="date">November 11 TBD: TBA</p>
+    <p id="6" class="hidden abstract">
+    TBA
+    </p>
+    </div> 
+
+<div onclick="tog('7');">
+    <p class="date">November 18 TBD: TBA</p>
+    <p id="6" class="hidden abstract">
+    TBA
+    </p>
+    </div>             
+
+<div onclick="tog('7');">
+    <p class="date">November 25 Zahir Ahmed (tentative): TBD</p>
+    <p id="6" class="hidden abstract">
+    TBA
+    </p>
+    </div> 
+ 
+<h3><font size="+3">References</font></h3>
+<ul>
+    <li>
+        V. Jones, <i>Hecke Algebra Representations of Braid Groups and Link Polynomials</i>, <a href="https://www.jstor.org/stable/1971403?seq=1">link</a>
+    </li>
+    <li>
+        I. Losev's notes, Lectures 12-14, <a href="https://gauss.math.yale.edu/~il282/RTMI.html">link</a>
+    </li>
+    <li>
+        C. Kassel, <i>Quantum Groups</i>, <a href="https://link.springer.com/book/10.1007/978-1-4612-0783-2">link</a>
+    </li>
+    <li>
+        P. Tingley, <i>Two constructions of the Jones polynomial</i>, Sections 1-3, <a href="https://webpages.math.luc.edu/~ptingley/lecturenotes/Kauffman_vs_sl2.pdf">link</a>
+    </li>
+</ul> 
+
+</main>
+</body>
+</html>
+
