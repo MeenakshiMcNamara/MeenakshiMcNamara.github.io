@@ -5,3 +5,72 @@ header {
   padding: 10px 0;
 }
 /* etc... */
+
+
+@charset "UTF-8";
+:root {
+      --font-color: #000000;
+      --bg-color: #fff;
+      --link-color: #ffffff;
+}
+div.effect img.image{
+}
+div:hover.effect img.image{
+display:none;
+}
+div.effect img.hover{
+display:none;
+}
+div:hover.effect img.hover{
+display:block;
+}
+
+
+
+body {
+      margin: auto; font-family: arial; padding-top: 10; padding-left: 10; padding-right: 10; color: var(--font-color); background-color: #fcf4fc;;}
+a {color: var(--link-color); text-decoration:none;}
+main {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      --link-color: #a960c9;
+      background-color: #ffffff; /* White background for content area */
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow for the content area */
+  }
+a:visited{color: var(--link-color); text-decoration:none;}
+a:hover {color: var(--link-color); text-decoration:underline;}
+table.menutable td {margin-left:0; padding-right: 10; padding-left: 10; padding-top: 10; padding-bottom: 10; font-size: 18; font-family: arial; text-align: center; color:#000000;}
+      a.menu{color: #000000; text-decoration:none;}
+a.menu:hover{color:var(--link-color);}
+td.menu:hover{background-color:var(--link-color); cursor:pointer;}
+td.menutop:hover {background-color:#B4B4B9;}
+
+table.ht {width: 100%;}
+table.ht td {padding:0;}
+td.htl {width: 125; vertical-align: top;}
+table.bt {width: 100%; border-collapse: collapse;}
+table.bt td {padding: 4; line-height: 130%;}
+table.bt tr {border-top: 1px solid;}
+table.bt tr:hover {background-color: #C2C0BF;}
+tr.btbold td {border-bottom: 3px solid;}
+td.bta {width: 34; vertical-align: top;}
+td.btb {width: 79; vertical-align: top;}
+
+ul.spacylist li {padding-top: 10;}
+.blocklinks {font-variant: small-caps; text-decoration:none; font-size: 10pt; color: #8A8B8C; font-weight: normal;}
+a.blocklinks:hover {color:#8A8B8C;}
+.blockp {font-size:5pt;width:95%;text-align:justify;}
+.blockspan {font-size:12pt;line-height:120%;}
+h3 {padding-left:0pt}
+.journal {font-style:italic;}
+
+
+.date {
+  color:  #ab1f9b;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+}
