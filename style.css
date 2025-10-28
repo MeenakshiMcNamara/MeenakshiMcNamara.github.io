@@ -74,3 +74,66 @@ h3 {padding-left:0pt}
   padding: 0;
   text-indent: 0;
 }
+
+/* <style> */
+    /* header {
+    background-color: #79006b; /* Darker teal for header */
+	/* color: white; */
+    /* padding: 10px 0; */
+/* }  */ 
+
+	
+    ol li {
+        padding: 5px 0px;
+        }
+    
+    ul li {
+            padding: 4px 0px;
+        }
+    
+        nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right; /* Aligns navigation to the right */
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 15px; /* Space between the tabs */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #508898; /* Darker teal on hover */
+    border-radius: 4px;
+}
+    
+    .supsub {
+            display: inline-block;
+        }
+    
+    .supsub sup,
+    .supsub sub {
+            position: relative;
+            display: block;
+            line-height: .6;
+        }
+    
+    .supsub sub {
+            top: .3em;
+        }
+    .hidden { display: none; }
+    .abstract { width: 100%; font-size: smaller; font-style: normal; margin: 0px; padding: 0px; 
+        padding-top:5px;
+         cursor: pointer; }
+         
+         
+    /* </style> */
+
