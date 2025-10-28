@@ -9,9 +9,9 @@ header {
 
 @charset "UTF-8";
 :root {
-      --font-color: #000000;
-      --bg-color: #fff;
-      --link-color: #ffffff;
+      --font-color: #fbf1c7;
+      --bg-color: #282828;;
+      --link-color: #5a94cb;
 }
 div.effect img.image{
 }
@@ -28,24 +28,24 @@ display:block;
 
 
 body {
-      margin: auto; font-family: arial; padding-top: 10; padding-left: 10; padding-right: 10; color: var(--font-color); background-color: #fcf4fc;;}
+      margin: auto; font-family: arial; padding-top: 10; padding-left: 10; padding-right: 10; color: var(--font-color); background-color: #282828;}
 a {color: var(--link-color); text-decoration:none;}
 main {
       padding: 20px;
       max-width: 800px;
       margin: auto;
-      --link-color: #a960c9;
-      background-color: #ffffff; /* White background for content area */
+      --link-color: #60a9c9;
+      background-color: #282828; /* White background for content area */
       border-radius: 8px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow for the content area */
   }
 a:visited{color: var(--link-color); text-decoration:none;}
 a:hover {color: var(--link-color); text-decoration:underline;}
-table.menutable td {margin-left:0; padding-right: 10; padding-left: 10; padding-top: 10; padding-bottom: 10; font-size: 18; font-family: arial; text-align: center; color:#000000;}
-      a.menu{color: #000000; text-decoration:none;}
+table.menutable td {margin-left:0; padding-right: 10; padding-left: 10; padding-top: 10; padding-bottom: 10; font-size: 18; font-family: arial; text-align: center; color:#fbf1c7;}
+      a.menu{color: #fbf1c7; text-decoration:none;}
 a.menu:hover{color:var(--link-color);}
 td.menu:hover{background-color:var(--link-color); cursor:pointer;}
-td.menutop:hover {background-color:#B4B4B9;}
+td.menutop:hover {background-color:#282828;}
 
 table.ht {width: 100%;}
 table.ht td {padding:0;}
@@ -53,7 +53,7 @@ td.htl {width: 125; vertical-align: top;}
 table.bt {width: 100%; border-collapse: collapse;}
 table.bt td {padding: 4; line-height: 130%;}
 table.bt tr {border-top: 1px solid;}
-table.bt tr:hover {background-color: #C2C0BF;}
+table.bt tr:hover {background-color: #282828;}
 tr.btbold td {border-bottom: 3px solid;}
 td.bta {width: 34; vertical-align: top;}
 td.btb {width: 79; vertical-align: top;}
@@ -68,7 +68,7 @@ h3 {padding-left:0pt}
 
 
 .date {
-  color:  #ab1f9b;
+  color:  #127911;
   display: inline;
   margin: 0;
   padding: 0;
