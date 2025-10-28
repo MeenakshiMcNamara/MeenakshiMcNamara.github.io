@@ -28,7 +28,7 @@ display:block;
 
 
 body {
-      margin: auto; font-family: arial; padding-top: 10; padding-left: 10; padding-right: 10; color: var(--font-color); background-color: #282828;}
+      margin: auto; font-family: Monaco, monospace; padding-top: 10; padding-left: 10; padding-right: 10; color: var(--font-color); background-color: #282828;}
 a {color: var(--link-color); text-decoration:none;}
 main {
       padding: 20px;
