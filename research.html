@@ -13,13 +13,13 @@
 fetch('header.html')
   .then(response => response.text())
   .then(data => {
-    document.getElementByid('nav-placeholder').innerHTML = data;
+    document.getElementById('nav-placeholder').innerHTML = data;
   });
 </script>
 
 
      <script>
-        function tog(id) { e = document.getElementByid(id); e.classList.toggle('hidden'); }
+        function tog(id) { e = document.getElementById(id); e.classList.toggle('hidden'); }
         function togs(c) { var es = document.getElementsByClassName(c), len = es ? es.length : 0, i = 0; for ( i ; i < len ; i++ ) { es[i].classList.toggle('hidden'); } }
     </script>
 <main>
